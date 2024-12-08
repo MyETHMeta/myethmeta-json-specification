@@ -1,0 +1,15 @@
+{
+  "name": "myethmeta-json-specification",
+  "version": "1.0.0",
+  "description": "MyETHMeta JSON schema based on Portable Contacts",
+  "main": "index.js",
+  "repository": "https://github.com/MyETHMeta/myethmeta-json-specification.git",
+  "author": "Laszlo Fazekas <thebojda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:typescript": "json2ts myethmeta-schema.json -o ./typescript/myethmeta-schema.ts"
+  }, 
+  "dependencies": {
+    "json-schema-to-typescript": "^15.0.3"
+  }
+}
